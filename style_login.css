@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background:#189AB4;
+    height: 100vh;
+    overflow: hidden;
+}
+.center {
+    width: 430px;
+    margin: 120px auto;
+    position: relative;
+}
+.center .header {
+    font-size: 28px;
+    font-weight: bold;
+    color: #75E6DA;
+    padding: 25px 0 30px 25px;
+    background:#05445E;
+    border-bottom: 1px solid #05445E;
+    border-radius: 5px 5px 0 0;
+}
+.center form {
+    position: absolute;
+    background: #D4F1F4;
+    width: 100%;
+    padding: 50px 10px 0 30px;
+    box-sizing: border-box;
+    border: 1px solid #189AB4;
+    border-radius: 0 0 5px 5px;
+}
+form input {
+    height: 50px;
+    width: 90%;
+    padding: 0 10px;
+    border-radius: 3px;
+    border: 1px solid #D4F1F4;
+    font-size: 18px;
+    outline: none;
+}
+form input[type="password"]{
+    margin-top: 20px;
+}
+form input:focus{
+    border: 1px solid #05445E;
+}
+form input[type="submit"] {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 130px;
+    height: 45px;
+    color:#75E6DA;
+    cursor:pointer;
+    line-height: 45px;
+    border-radius: 45px;
+    border-radius: 5px;
+    background: #05445E;
+}
+form input[type="submit"]:hover {
+    background: #75E6DA;
+    transition: .5s;
+    color: #05445E;
+}
+form a {
+    text-decoration: none;
+    font-size: 18px;
+    color :#05445E;
+    padding: 0 0 0 20px;
+}

@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body {
+    background-color: #189AB4;
+}
+.filter {
+    position: relative;
+    height: 100vh; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: .7;
+    background-color: #189AB4;
+}
+ table {
+    position: relative;
+    z-index: 2; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 12px 12px 0 0;
+    overflow: visible;
+    box-shadow: 0 2px 12px rgba(32,32,32,.3);
+    background-color: #D4F1F4;
+    text-align: center;
+}
+ th,td {
+    padding: 12px 15px;
+}
+ th {
+    background: #05445E;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ td {
+    font-family:cursive;
+}
+ tr:nth-child(odd) {
+    background-color: #eeeeee;
+}
+ table tr td a {
+    display: grid;
+    height: 50px;
+    width:150px;
+    color:#75E6DA;
+    background: #05445E;
+    text-decoration: none;
+    position: absolute; 
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    place-items: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 25px;
+    border-radius: 5px;
+    outline: none;
+}
+ table tr td a:hover {
+    background: #75E6DA;
+     transition: .5s;
+     color: #05445E;
+ }
+  /* <tfoot><tr><td colspan="5"><a href="home.html">DONE</a></td></tr></tfoot> */
